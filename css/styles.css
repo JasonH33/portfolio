@@ -660,7 +660,7 @@ a {
   }
 }
 
-@media (max-width: 460px) {
+@media (max-width: 500px) {
   nav, nav ul {
     flex-direction: column;
   }
