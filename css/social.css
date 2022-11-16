@@ -117,3 +117,23 @@ ul.social#second li:nth-child(5) span {
 #donate-ml {
   margin-left: 1rem;
 }
+
+@media (max-width: 500px) {
+  ul.social {
+    display: grid;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  ul.social#second li:nth-child(1) {
+    display: none;
+  }
+
+  ul.social#first li:nth-child(1),
+  ul.social#first li:nth-child(2) {
+    margin-bottom: 1.5rem;
+  }
+}
