@@ -1,24 +1,26 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="author" content="JasonH33">
-    <meta name="description" content="Portfólio do desenvolvedor front-end">
-    <meta name="keywords" content="portfolio, html, front-end, desenvolvimento, css, javascript">
-    <title>Jason | Projetos</title>
-    <link rel="icon" href="./icon.png">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/styles.css" />
-  </head>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="JasonH33">
+  <meta name="description" content="Portfólio do desenvolvedor front-end">
+  <meta name="keywords" content="portfolio, html, front-end, desenvolvimento, css, javascript">
+  <title>Jason | Projetos</title>
+  <link rel="icon" href="./icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/styles.css" />
+</head>
+
 <body>
   <header>
     <nav class="container">
-      <p><a href="#home">&lsaquo;/JH&rsaquo;</a></p>
-      <div class="menu">
+      <p id="logo"><a href="#home">&lsaquo;/JH&rsaquo;</a></p>
+      <div class="menu hide">
         <ul id="menu">
           <a href="index.html">
             <li>Inicio</li>
@@ -26,8 +28,10 @@
           <a href="contact.html">
             <li>Contato</li>
           </a>
+          <button class="toggle">Fechar</button>
         </ul>
       </div>
+      <button class="toggle">Menu</button>
     </nav>
   </header>
 
@@ -37,12 +41,12 @@
       <div class="projetos__wrapper">
         <section class="projetos__card">
           <a href="https://neobaka.com.br/" target="_blank">
-          <img src="./assets/projects/neobaka.webp" alt="" class="projeto-img"/>
-        </a>
+            <img src="./assets/projects/neobaka.webp" alt="" class="projeto-img" />
+          </a>
           <p>
             Landing page para agência de VTubers brasileira NEOBAKA.
           </p>
-          <span>Tecnologias usadas no projeto: <br/> HTML, CSS, JavaScript</span>
+          <span>Tecnologias usadas no projeto: <br /> HTML, CSS, JavaScript</span>
           <a href="https://neobaka.com.br/" target="_blank">
             <div class="projetos__card-button">
               <img src="./assets/link.png" alt="">
@@ -52,8 +56,8 @@
         </section>
         <section class="projetos__card">
           <a href="" target="_blank">
-          <img src="./assets/projeto2.png" alt="" class="projeto-img"/>
-        </a>
+            <img src="./assets/projeto2.png" alt="" class="projeto-img" />
+          </a>
           <h2>Em Breve</h2>
           <p>
             ...
@@ -74,12 +78,14 @@
       <div class="projetos__wrapper">
         <section class="projetos__card">
           <a href="https://nlw-feedget-rho.vercel.app/" target="_blank">
-          <h2 class="projeto-img">FeedGet</h2>
-        </a>
+            <h2 class="projeto-img">FeedGet</h2>
+          </a>
           <p>
-            Projeto desenvolvido para coletar feedbacks de suas aplicações. O projeto coleta feedback do usuário sobre problemas, e permite enviar sugestões e ideias.
+            Projeto desenvolvido para coletar feedbacks de suas aplicações. O projeto coleta feedback do usuário sobre
+            problemas, e permite enviar sugestões e ideias.
           </p>
-          <span>Tecnologias usadas no projeto: <br/> React, TypeScript, ViteJS, NodeJS, Prisma, JestJS, NodeMailer, TailwindCSS </span>
+          <span>Tecnologias usadas no projeto: <br /> React, TypeScript, ViteJS, NodeJS, Prisma, JestJS, NodeMailer,
+            TailwindCSS </span>
           <a href="https://nlw-feedget-jasonh33.vercel.app/" target="_blank">
             <div class="projetos__card-button">
               <img src="./assets/link.png" alt="">
@@ -90,11 +96,11 @@
         <section class="projetos__card">
           <a href="https://jasonh33.github.io/beautysalon-origin/" target="_blank">
             <h2 class="projeto-img">BeautySalon.</h2>
-        </a>
+          </a>
           <p>
             Landing page desenvolvida durante evento da RocketSeat.
           </p>
-          <span>Tecnologias usadas no projeto: <br/> HTML, CSS, JavaScript</span>
+          <span>Tecnologias usadas no projeto: <br /> HTML, CSS, JavaScript</span>
           <a href="https://jasonh33.github.io/beautysalon-origin/" target="_blank">
             <div class="projetos__card-button">
               <img src="./assets/link.png" alt="">
@@ -104,12 +110,12 @@
         </section>
         <section class="projetos__card">
           <a href="https://jasonh33.github.io/Google-Glass/" target="_blank">
-          <h2 class="projeto-img">Google Glass</h2>
-        </a>
+            <h2 class="projeto-img">Google Glass</h2>
+          </a>
           <p>
             Minha primeira página web feita, desenvolvida durante curso de HTML do Gustavo Guanabara.
           </p>
-          <span>Tecnologias usadas no projeto: <br/> HTML, CSS, JavaScript</span>
+          <span>Tecnologias usadas no projeto: <br /> HTML, CSS, JavaScript</span>
           <a href="https://jasonh33.github.io/Google-Glass/" target="_blank">
             <div class="projetos__card-button">
               <img src="./assets/link.png" alt="">
@@ -119,8 +125,8 @@
         </section>
         <section class="projetos__card">
           <a href="" target="_blank">
-          <img src="./assets/projeto2.png" alt="" class="projeto-img"/>
-        </a>
+            <img src="./assets/projeto2.png" alt="" class="projeto-img" />
+          </a>
           <h2>Em Breve</h2>
           <p>
             ...
@@ -134,16 +140,16 @@
           </a>
         </section>
       </div>
-<br>
+      <br>
       <div class="divider"></div>
 
       <h1>4Fun</h1>
       <div class="projetos__wrapper">
         <section class="projetos__card">
           <a href="https://jasonh33.github.io/profile-card/" target="_blank">
-          <h2 class="projeto-img">Profile Card</h2>
-        </a>
-        <span>Tecnologias usadas no projeto: <br/> HTML, CSS</span>
+            <h2 class="projeto-img">Profile Card</h2>
+          </a>
+          <span>Tecnologias usadas no projeto: <br /> HTML, CSS</span>
           <a href="https://jasonh33.github.io/profile-card/" target="_blank">
             <div class="projetos__card-button">
               <img src="./assets/link.png" alt="">
@@ -153,9 +159,9 @@
         </section>
         <section class="projetos__card">
           <a href="https://jasonh33.github.io/login-form/" target="_blank">
-          <h2 class="projeto-img">Login Form</h2>
-        </a>
-        <span>Tecnologias usadas no projeto: <br/> HTML, CSS</span>
+            <h2 class="projeto-img">Login Form</h2>
+          </a>
+          <span>Tecnologias usadas no projeto: <br /> HTML, CSS</span>
           <a href="https://jasonh33.github.io/login-form/" target="_blank">
             <div class="projetos__card-button">
               <img src="./assets/link.png" alt="">
@@ -165,9 +171,9 @@
         </section>
         <section class="projetos__card">
           <a href="https://jasonh33.github.io/Border-animation/" target="_blank">
-          <h2 class="projeto-img">Border Animation</h2>
-        </a>
-          <span>Tecnologias usadas no projeto: <br/> HTML, CSS</span>
+            <h2 class="projeto-img">Border Animation</h2>
+          </a>
+          <span>Tecnologias usadas no projeto: <br /> HTML, CSS</span>
           <a href="https://jasonh33.github.io/Border-animation/" target="_blank">
             <div class="projetos__card-button">
               <img src="./assets/link.png" alt="">
@@ -177,9 +183,9 @@
         </section>
         <section class="projetos__card">
           <a href="https://jasonh33.github.io/loading-screen-3rays/" target="_blank">
-          <h2 class="projeto-img">Loading Screen</h2>
-        </a>
-        <span>Tecnologias usadas no projeto: <br/> HTML, CSS</span>
+            <h2 class="projeto-img">Loading Screen</h2>
+          </a>
+          <span>Tecnologias usadas no projeto: <br /> HTML, CSS</span>
           <a href="https://jasonh33.github.io/loading-screen-3rays/" target="_blank">
             <div class="projetos__card-button">
               <img src="./assets/link.png" alt="">
@@ -189,9 +195,9 @@
         </section>
         <section class="projetos__card">
           <a href="https://jasonh33.github.io/glowing-cubes/" target="_blank">
-          <h2 class="projeto-img">Glowing Cube</h2>
-        </a>
-        <span>Tecnologias usadas no projeto: <br/> HTML, CSS</span>
+            <h2 class="projeto-img">Glowing Cube</h2>
+          </a>
+          <span>Tecnologias usadas no projeto: <br /> HTML, CSS</span>
           <a href="https://jasonh33.github.io/glowing-cubes/" target="_blank">
             <div class="projetos__card-button">
               <img src="./assets/link.png" alt="">
@@ -201,9 +207,9 @@
         </section>
         <section class="projetos__card">
           <a href="https://jasonh33.github.io/3d-social-buttons/" target="_blank">
-          <h2 class="projeto-img">Social Buttons</h2>
-        </a>
-        <span>Tecnologias usadas no projeto: <br/> HTML, CSS</span>
+            <h2 class="projeto-img">Social Buttons</h2>
+          </a>
+          <span>Tecnologias usadas no projeto: <br /> HTML, CSS</span>
           <a href="https://jasonh33.github.io/3d-social-buttons/" target="_blank">
             <div class="projetos__card-button">
               <img src="./assets/link.png" alt="">
@@ -214,5 +220,7 @@
       </div>
     </section>
   </main>
+  <script src="./js/menu.js"></script>
 </body>
+
 </html>

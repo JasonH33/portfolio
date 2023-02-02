@@ -1,32 +1,36 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="author" content="JasonH33">
-    <meta name="description" content="Portfólio do desenvolvedor front-end">
-    <meta name="keywords" content="portfolio, html, front-end, desenvolvimento, css, javascript">
-    <title>Jason | Inicio</title>
-    <link rel="icon" href="./icon.png">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/styles.css" />
-  </head>
-  <body>
-    <header>
-      <nav class="container">
-        <p><a href="#home">&lsaquo;/JH&rsaquo;</a></p>
-        <div class="menu">
-          <ul id="menu">
-            <a href="#home">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="JasonH33">
+  <meta name="description" content="Portfólio do desenvolvedor front-end">
+  <meta name="keywords" content="portfolio, html, front-end, desenvolvimento, css, javascript">
+  <title>Jason | Inicio</title>
+  <link rel="icon" href="./icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"
+    integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/styles.css" />
+</head>
+
+<body>
+  <header>
+    <nav class="container">
+      <p id="logo"><a href="#home">&lsaquo;/JH&rsaquo;</a></p>
+      <div class="menu hide">
+        <ul id="menu">
+          <a href="#home">
             <li>Inicio</li>
           </a>
-            <a href="#sobre">
-              <li>Sobre</li>
-            </a>
-            <a href="#experiencia">
+          <a href="#sobre">
+            <li>Sobre</li>
+          </a>
+          <a href="#experiencia">
             <li>Experiência</li>
           </a>
           <a href="projects.html">
@@ -35,97 +39,100 @@
           <a href="contact.html">
             <li>Contato</li>
           </a>
-          </ul>
-        </div>
-      </nav>
+          <button class="toggle">Fechar</button>
+        </ul>
+      </div>
+      <button class="toggle">Menu</button>
+    </nav>
   </header>
 
-    <main>
-      <section class="principal" id="home" >
-        <div class="principal__left">
-          <h1>Olá, eu sou</h1>
-            <span class="principal__sentence"><a rel="me" href="https://bolha.us/@JasonH33">Jason</a></span>
-            <span class="principal__input-cursor"></span>
-          <h1>Desenvolvedor Front-End</h1>
-          <div class="principal__botao">
-            <a href="https://github.com/JasonH33" target="_blank">
-              <div class="principal__botao-github">
-                <img src="./assets/github.png" alt="" />
-                <p>Github</p>
-              </div>
-            </a>
-          </div>
+  <main>
+    <section class="principal" id="home">
+      <div class="principal__left">
+        <h1>Olá, eu sou</h1>
+        <span class="principal__sentence"><a rel="me" href="https://bolha.us/@JasonH33">Jason</a></span>
+        <span class="principal__input-cursor"></span>
+        <h1>Desenvolvedor Front-End</h1>
+        <div class="principal__botao">
+          <a href="https://github.com/JasonH33" target="_blank">
+            <div class="principal__botao-github">
+              <img src="./assets/github.png" alt="" />
+              <p>Github</p>
+            </div>
+          </a>
         </div>
-        <div class="principal__right">
-          <img src="./assets/code.png" alt="Ilustração representando um desenvolvedor sentada na cadeira mexendo no computador." data-tilt>
-        </div>
-        
-        <div class="scroll" data-menu="suave"><a href="#sobre" > <p> scroll down </p> <img src="./assets/scroll.png" alt="Setinha indicando para rolar a tela para baixo"></a></div>
-      </section>
+      </div>
+      <div class="principal__right">
+        <img src="./assets/code.png"
+          alt="Ilustração representando um desenvolvedor sentada na cadeira mexendo no computador." data-tilt>
+      </div>
 
-      <div class="divider"></div>
+      <div class="scroll" data-menu="suave"><a href="#sobre">
+          <p> scroll down </p> <img src="./assets/scroll.png" alt="Setinha indicando para rolar a tela para baixo">
+        </a></div>
+    </section>
 
-      <section class="sobre-mim" id="sobre">
-        <div class="sobre-mim__foto">
-          <img src="./assets/Ivy.png" alt="O Personagem Que Representa Jason" />
-        </div>
-        <div class="sobre-mim__descricao" >
-          <h1>Sobre mim</h1>
-          <h2>São Paulo, SP</h2>
-          <p>
-            Olá! Sou desenvolvedor Front-End com dedicação nos estudos para
-            futuramente ser um desenvolvedor fullstack. Em 2020 tomei a decisão de estudar por conta própria
-            fazendo diversos cursos. Estou cursando Análise e 
-            Desenvolvimento de Sistemas na UNICSUL e continuo meus estudos, sempre em constante aprendizado.
-          </p>
-          <div class="sobre-mim__descricao-buttons">
-            <a href="./assets/Curriculo.pdf" target="_blank">
-              <div class="sobre-mim__descricao-buttons-curriculo">
-                <img src="./assets/download-da-nuvem.png" alt="" />
-                <p>Currículo</p>
-              </div>
-            </a>
-            <a
-              href="mailto: jhornet33@outlook.com?subject=Vim pelo seu portfólio! :)"
-              target="_blank"
-            >
-              <div class="sobre-mim__descricao-buttons-email">
-                <img src="./assets/email.png" alt="" />
-                <p>E-mail</p>
-              </div>
-            </a>
-          </div>
-        </div>
-      </section>
+    <div class="divider"></div>
 
-      <div class="divider"></div>
-
-      <section class="experiencia" id="experiencia">
-        <h1>Experiência</h1>
-        <div class="experiencia__wrapper">
-          <section class="experiencia__lugares">
-            <ul data-tab="menu">
-              <li>&#128064&#128064</li>
-            </ul>
-          </section>
-          <div class="experiencia__descricao">
-            <section>
-              <h2>Em busca da minha primeira experiência "oficial" :)</h2>
-              <p class="experiencia__descricao-local">Quem sabe na sua empresa?</p>
-              <p>Estou disponível para bater um papo, você pode entrar em contato via e-mail jhornet33@outlook.com</p>
-            </section>
+    <section class="sobre-mim" id="sobre">
+      <div class="sobre-mim__foto">
+        <img src="./assets/Ivy.png" alt="O Personagem Que Representa Jason" />
+      </div>
+      <div class="sobre-mim__descricao">
+        <h1>Sobre mim</h1>
+        <h2>São Paulo, SP</h2>
+        <p>
+          Olá! Sou desenvolvedor Front-End com dedicação nos estudos para
+          futuramente ser um desenvolvedor fullstack. Em 2020 tomei a decisão de estudar por conta própria
+          fazendo diversos cursos. Estou cursando Análise e
+          Desenvolvimento de Sistemas na UNICSUL e continuo meus estudos, sempre em constante aprendizado.
+        </p>
+        <div class="sobre-mim__descricao-buttons">
+          <a href="./assets/Curriculo.pdf" target="_blank">
+            <div class="sobre-mim__descricao-buttons-curriculo">
+              <img src="./assets/download-da-nuvem.png" alt="" />
+              <p>Currículo</p>
+            </div>
+          </a>
+          <a href="mailto: jhornet33@outlook.com?subject=Vim pelo seu portfólio! :)" target="_blank">
+            <div class="sobre-mim__descricao-buttons-email">
+              <img src="./assets/email.png" alt="" />
+              <p>E-mail</p>
+            </div>
+          </a>
         </div>
+      </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <section class="experiencia" id="experiencia">
+      <h1>Experiência</h1>
+      <div class="experiencia__wrapper">
+        <section class="experiencia__lugares">
+          <ul data-tab="menu">
+            <li>&#128064&#128064</li>
+          </ul>
         </section>
+        <div class="experiencia__descricao">
+          <section>
+            <h2>Em busca da minha primeira experiência "oficial" :)</h2>
+            <p class="experiencia__descricao-local">Quem sabe na sua empresa?</p>
+            <p>Estou disponível para bater um papo, você pode entrar em contato via e-mail jhornet33@outlook.com</p>
+          </section>
         </div>
-      </section>
-      
-      <div class="divider"></div>
+    </section>
+    </div>
+    </section>
 
-      <footer>
-        <p>Desenvolvido por</p><a href="https://twitter.com/H33_Jason" target="_blank"><span> JasonH33</span></a>
-      </footer>
-    </main>
+    <div class="divider"></div>
 
-    <script src="./js/vanilla-tilt.min.js"></script>
-  </body>
+    <footer>
+      <p>Desenvolvido por</p><a href="https://twitter.com/H33_Jason" target="_blank"><span> Jason Hornet</span></a>
+    </footer>
+  </main>
+  <script src="./js/menu.js"></script>
+  <script src="./js/vanilla-tilt.min.js"></script>
+</body>
+
 </html>
