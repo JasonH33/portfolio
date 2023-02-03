@@ -31,6 +31,28 @@ body {
   display: none;
 }
 
+.lang {
+  display: flex;
+  align-items: center;
+  padding: 3px 5px 5px;
+  justify-content: space-evenly;
+  border-radius: 10px;
+  border-color: rgba(101, 24, 180, 1);
+  color: rgba(101, 24, 180, 1);
+  margin: 1rem;
+  transition: 0.3s;
+  font-weight: 600;
+  font-size: 0.75rem;
+  letter-spacing: 1.5px;
+  height: 30px;
+  width: 100px;
+  background-color: #151515;
+}
+
+button {
+  cursor: pointer;
+}
+
 h1,
 h2,
 p {
@@ -698,16 +720,17 @@ a {
 }
 
 @media (max-width: 500px) {
-  .toggle {
+
+  .toggle,
+  .lang {
     display: flex;
     align-items: center;
     padding: 3px 5px 5px;
     justify-content: space-evenly;
-    width: 70px;
     border-radius: 10px;
     border-color: rgba(101, 24, 180, 1);
     color: rgba(101, 24, 180, 1);
-    margin: 1rem;
+    margin: 1rem 3rem;
     transition: 0.3s;
     font-weight: 600;
     font-size: 0.75rem;
@@ -722,7 +745,8 @@ a {
     background-color: rgba(101, 24, 180, 1);
   }
 
-  div.menu.hide {
+  div.menu.hide,
+  button.lang.hide {
     display: none;
     opacity: 0;
   }
