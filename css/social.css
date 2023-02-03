@@ -7,6 +7,11 @@ body {
   justify-content: center;
 }
 
+.contact,
+.donate {
+  padding: 0% 15%;
+}
+
 h1 {
   text-align: center;
   margin: 2rem 0rem !important;
@@ -16,8 +21,10 @@ ul.social {
   position: relative;
   padding: 0;
   display: flex;
+  justify-content: center;
 }
 
+/*
 ul.social#first {
   margin: 10% 0% 1% 0%;
 }
@@ -25,7 +32,7 @@ ul.social#first {
 ul.social#second {
   margin: 1% 0% 8% 0%;
 }
-
+*/
 ul.social li {
   position: relative;
   list-style: none;
@@ -54,18 +61,22 @@ ul.social li:hover span:nth-child(5) {
   transform: translate(40px, -40px);
   opacity: 1;
 }
+
 ul.social li:hover span:nth-child(4) {
   transform: translate(30px, -30px);
   opacity: 0.8;
 }
+
 ul.social li:hover span:nth-child(3) {
   transform: translate(20px, -20px);
   opacity: 0.6;
 }
+
 ul.social li:hover span:nth-child(2) {
   transform: translate(10px, -10px);
   opacity: 0.4;
 }
+
 ul.social li:hover span:nth-child(1) {
   transform: translate(0px, -0px);
   opacity: 0.2;
@@ -75,30 +86,36 @@ ul.social li:hover span:nth-child(1) {
 ul.social#first li:nth-child(1) span {
   background: #55acee;
 }
+
 ul.social#first li:nth-child(2) span {
   background: #6364ff;
 }
+
 ul.social#first li:nth-child(3) span {
   background: #5865f2;
 }
+
 ul.social#first li:nth-child(4) span {
   background: #fff;
 }
 
 /* second list */
 ul.social#second li:nth-child(1) span {
-  opacity: 0;
   background: #000000;
 }
+
 ul.social#second li:nth-child(2) span {
   background: #000000;
 }
+
 ul.social#second li:nth-child(3) span {
   background: #000000;
 }
+
 ul.social#second li:nth-child(4) span {
   background: #000000;
 }
+
 ul.social#second li:nth-child(5) span {
   background: #000000;
 }
@@ -126,10 +143,6 @@ ul.social#second li:nth-child(5) span {
     align-items: center;
     justify-items: center;
     grid-template-columns: 1fr 1fr;
-  }
-
-  ul.social#second li:nth-child(1) {
-    display: none;
   }
 
   ul.social#first li:nth-child(1),
