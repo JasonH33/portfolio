@@ -1,3 +1,7 @@
+* {
+  user-select: none;
+}
+
 html {
   margin: 0;
   border: 0;
